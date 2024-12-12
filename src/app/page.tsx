@@ -21,14 +21,14 @@ export default function Home() {
     }
 
     if (!/^\d+$/.test(value)) {
-      alert("Please enter a valid number without spaces for n.");
+      alert("Va rog introduceti un numar fara spatiu.");
       return;
     }
 
     const numSets = parseInt(value);
 
     if (isNaN(numSets) || numSets <= 0) {
-      alert("Please enter a valid positive number for n.");
+      alert("Va rog introduceti un numar pozitiv.");
       return;
     }
 
@@ -38,7 +38,7 @@ export default function Home() {
 
   const generateCartesianProduct = () => {
     if (n === "" || sets.some((set) => set.length === 0)) {
-      alert("Please enter valid sets.");
+      alert("Va rog introduceti un set valid.");
       return;
     }
 
