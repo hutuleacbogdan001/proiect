@@ -14,6 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Produs Cartezian",
+  description: "",
 };
 
 export default function RootLayout({
