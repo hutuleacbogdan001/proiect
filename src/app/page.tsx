@@ -123,7 +123,7 @@ int main()
   return (
     <div className="min-h-screen bg-gray-800 text-gray-100 font-sans py-8">
       <header className="text-center mb-12">
-        <h1 className="text-5xl font-extrabold text-gray-100">Produsul Cartezian</h1>
+        <h1 className="text-5xl font-extrabold text-gray-100">Produsul Cartezian de Hutuleac Bogdan</h1>
         <p className="mt-4 text-lg text-gray-300">Calculați produsul cartezian pentru mulțimi date.</p>
       </header>
 
